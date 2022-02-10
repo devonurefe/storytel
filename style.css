@@ -1,1 +1,43 @@
-ECHO is on.
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 65px;
+}
+.fa-check {
+  color: #ff5c28 !important;
+}
+.stripe {
+  background: #ffeae6;
+}
+.banner {
+  background: #ffccc2;
+}
+.fontColor {
+  color: #48001e;
+}
+.books {
+  width: 60%;
+}
+.opak {
+  transform: scale(1);
+}
+.opak:hover {
+  transition: all 0.4s ease;
+  transform: scale(1.1);
+}
+.btnColor {
+  background-color: #ff5c28 !important;
+  border-radius: 50px;
+}
+.abonment {
+  width: 60%;
+}
+.footer {
+  height: 100vh;
+}
